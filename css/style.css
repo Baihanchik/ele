@@ -1,0 +1,66 @@
+body {
+  background: url("https://foni.club/uploads/posts/2023-02/1675254415_foni-club-p-fon-anime-tyanki-u-khrushchevok-1.jpg")
+    no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.building {
+  position: relative;
+  width: 230px;
+  height: 500px;
+  border: 1px solid black;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.floor {
+  width: 100%;
+  height: 20%;
+  background-color: darkred;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.elevator {
+  background: url("") no-repeat;
+  background-size: 100%;
+  position: absolute;
+  bottom: 0;
+  width: 210px;
+
+  height: 20%;
+  background-color: black;
+  transition: bottom 3s ease-in-out;
+}
+
+.buttons-panel {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+button {
+  margin: 5px;
+}
+
+#up-btn:hover {
+  background-color: darkslategray;
+}
+
+#down-btn:hover {
+  background-color: darkslategray;
+}
+
+#go-btn:hover {
+  background-color: darkslategray;
+}
